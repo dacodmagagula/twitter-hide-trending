@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "No Trending, No Verified",
+  "version": "1.0.0",
+  "content_scripts": [
+  {
+    "matches": [
+      "*://twitter.com/*","*://www.twitter.com/*"
+    ],
+    "js": ["js/jquery.min.js","js/content.js"]
+  }
+  ]
+}
